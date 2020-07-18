@@ -1,3 +1,6 @@
 import sys
 
-print(sys.path)
+name="meng"
+#print(sys.path)
+hello_format="hello ,{}"
+print(hello_format.format(name))
